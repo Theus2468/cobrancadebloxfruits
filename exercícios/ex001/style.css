@@ -1,0 +1,32 @@
+body{
+    background-color: purple;
+}
+h1 {
+    position: absolute;
+    left: 30%;
+    font-size: 50px;
+    color: white;
+}
+#botao1 {
+    position: absolute;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 25%;
+    border-style: double;
+}
+
+#botao2 {
+    position: absolute;
+    top: 120px;
+    left: 750px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 25%;
+    border-style: double;
+}
+#meuCopy {
+    color: white;
+}

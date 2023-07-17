@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>html</title>
+</head>
+<body>
+    <script>
+        window.confirm('bem vindo')
+    </script>
+    <h1>você vai me dar aquela magma?</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button id="botao1">sim</button>
+    <button id="botao2" >não</button>
+    <script>
+        var botao = document.getElementById('botao2');
+        botao.addEventListener('click', moverBotao);
+        function moverBotao() {
+            var novaPosicaoX = Math.floor(Math.random() * window.innerWidth);
+            var novaPosicaoY = Math.floor(Math.random() * window.innerHeight);
+
+            botao.style.left = novaPosicaoX + 'px';
+            botao.style.top = novaPosicaoY + 'px';
+        }
+        var add_frase = document.getElementById('botao1');
+        add_frase.addEventListener('click', exibirAlerta);
+        function exibirAlerta() {
+            alert ('já pode mandar');
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="meuCopy">SiteDeTheus&copy;2023</p>
+</body>
+</html>
